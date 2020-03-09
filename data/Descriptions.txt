@@ -1,0 +1,70 @@
+agency - Information regarding the companies/agencies involved in public transit
+	agency_id - ID abbreviation representing agency
+	agency_name - Name of agency
+	agency_url - URL of the agency (irrelevant)
+	agency_timezone - Agency's timezone (irrelevant)
+	agency_lang - Agency's primary language (irrelevant)
+	agency_phone - Agency's phone (irrelevant)
+	agency_fare_url - Agency's page for online fare purchase (irrelevant)
+calendar - Information categorizing different days of the week
+	service_id - type of 'day'
+	monday -> sunday - binary variable indicating day of week
+	start_date - day service begins (irrelevant)
+	end_date - day service ends (irrelevant)
+calendar_dates - Information regarding special cases of calendar dates, such as holidays
+	service-id - type of 'day'
+	date - date where service is different from usual
+	exception_type - Indicates if service is available on that day
+fare_attributes - Information regarding transit fares
+	fare_id - Fare class ID
+	agency_id - Abbreviation representing agency
+	price - Dollar amount of fare
+	descriptions - Insight of fare type
+	currency_type - Currency used to pay fare (irrelevant)
+	payment_method - When fare is to be paid (irrelevant)
+	transfers - Number of transfers allowed for the fare (irrelevant)
+	transfer_duration - Period of time before a transfer expires (irrelevant)
+fare-rules - Unclear, appears to be special cases of when fares are used
+	fare_id - Fare class ID
+	route_id - Number id of route (blank)
+	origin_id - ID of origin stop
+	destination_id - ID of destination stop
+	contains_id - Zone ID (blank)
+frequencies - Time between trips for routes with variable frequency
+	trip_id - ID for trip
+	start_time - When the service starts operating at the specified frequency
+	end_time - When the service starts operating at a different frequency
+	headway_secs - Amount of time in secs between departures at the same stop
+pattern_pairs - (Unknown)
+	???
+routes - Transit routes
+	route_id - Number id of route
+	agency_id - ID abbreviation representing agency
+	route_short_name - Short name of the route
+	route_long_name - Full name of the route
+	route_desc - Description of the route
+	route_type - Type of transportation used for the route
+	route_url - URL of webpage describing route (irrelevant)
+	route_color - Color associated with route (Irrelevant)
+	route_text_color - Text color associated with route (Irrelevant)
+shapes - Pretty self explanatory
+	shape_id - ID of a census tract shape
+	shape_pt_lat - Latitude of a shape point
+	shape_pt_lon - Longitude of a shape point
+	shape_pt_sequence - Sequence order of a shape point
+	shape_dist_traveled - Distance from first shape point
+stop_times - Times that a route arrives and departs at stops
+	trip_id - ID for trop
+	arrival_time - When the vehicle arrives at the stop
+	departure_time - When the vehicle leaves the stop
+	stop_id - Number ID representing stop
+	stop_sequence - Order of stop for a particular trip
+	stop_headsign - Text that appears on a vehicle (irrelevant)
+stops - Locations where vehicles drop off and pick up passengers
+	stop_id - Number ID representing stop
+	stop_code - Text or number that identifies stop
+	stop_name - Name/address of stop
+	stop_desc - Description of stop
+	stop_lat - latitude of stop
+	stop_lon - longitude of stop
+	zone_id -fare zone for stop
