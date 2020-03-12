@@ -1,0 +1,58 @@
+route_id,trip_id,service_id,trip_headsign,direction_id,shape_id
+SNDR_TL,1500,WD_SNDR,King Street Station,1,SNDR_TL_NBLW_shp
+SNDR_TL,1501,WD_SNDR,Tacoma Dome,0,SNDR_TL_SB_shp
+SNDR_TL,1502,WD_SNDR,King Street Station,1,SNDR_TL_NBLW_shp
+SNDR_TL,1503,WD_SNDR,Tacoma Dome,0,SNDR_TL_SB_shp
+SNDR_TL,1504,WD_SNDR,King Street Station,1,SNDR_TL_NBLW_shp
+SNDR_TL,1505,WD_SNDR,Lakewood,0,SNDR_TL_SBLW_shp
+SNDR_TL,1505H,SP_SNDR_HOL,Lakewood,0,SNDR_TL_SBLW_shp
+SNDR_TL,1506,WD_SNDR,King Street Station,1,SNDR_TL_NBLW_shp
+SNDR_TL,1507,WD_SNDR,Tacoma Dome,0,SNDR_TL_SB_shp
+SNDR_TL,1507H,SP_SNDR_HOL,Tacoma Dome,0,SNDR_TL_SB_shp
+SNDR_TL,1508,WD_SNDR,King Street Station,1,SNDR_TL_NBLW_shp
+SNDR_TL,1508H,SP_SNDR_HOL,King Street Station,1,SNDR_TL_NBLW_shp
+SNDR_TL,1509,WD_SNDR,Tacoma Dome,0,SNDR_TL_SB_shp
+SNDR_TL,1510,WD_SNDR,King Street Station,1,SNDR_TL_NBLW_shp
+SNDR_TL,1511,WD_SNDR,Lakewood,0,SNDR_TL_SBLW_shp
+SNDR_TL,1512,WD_SNDR,King Street Station,1,SNDR_TL_NBLW_shp
+SNDR_TL,1513,WD_SNDR,Tacoma Dome,0,SNDR_TL_SB_shp
+SNDR_TL,1514,WD_SNDR,King Street Station,1,SNDR_TL_NB_shp
+SNDR_TL,1515,WD_SNDR,Lakewood,0,SNDR_TL_SBLW_shp
+SNDR_TL,1516,WD_SNDR,King Street Station,1,SNDR_TL_NB_shp
+SNDR_TL,1517,WD_SNDR,Lakewood,0,SNDR_TL_SBLW_shp
+SNDR_TL,1518,WD_SNDR,King Street Station,1,SNDR_TL_NBLW_shp
+SNDR_TL,1518H,SP_SNDR_HOL,King Street Station,1,SNDR_TL_NBLW_shp
+SNDR_TL,1519,WD_SNDR,Lakewood,0,SNDR_TL_SBLW_shp
+SNDR_TL,1520,WD_SNDR,King Street Station,1,SNDR_TL_NB_shp
+SNDR_TL,1520H,SP_SNDR_HOL,King Street Station,1,SNDR_TL_NB_shp
+SNDR_TL,1521,WD_SNDR,Lakewood,0,SNDR_TL_SBLW_shp
+SNDR_TL,1521H,SP_SNDR_HOL,Lakewood,0,SNDR_TL_SBLW_shp
+SNDR_TL,1522,WD_SNDR,King Street Station,1,SNDR_TL_NB_shp
+SNDR_TL,1523,WD_SNDR,Lakewood,0,SNDR_TL_SBLW_shp
+SNDR_TL,1524,WD_SNDR,King Street Station,1,SNDR_TL_NB_shp
+SNDR_TL,1525,WD_SNDR,Lakewood,0,SNDR_TL_SBLW_shp
+SNDR_TL,1630,SP_SNDR_SEA,King Street Station,1,SNDR_TL_NBLW_shp
+SNDR_TL,1632,SP_SNDR_SEA,King Street Station,1,SNDR_TL_NBLW_shp
+SNDR_TL,1634,SP_SNDR_SEA,King Street Station,1,SNDR_TL_NBLW_shp
+SNDR_EV,1700,WD_SNDR,Everett Station,0,SNDR_EV_NB_shp
+SNDR_EV,1701,WD_SNDR,King Street Station,1,SNDR_EV_SB_shp
+SNDR_EV,1702,WD_SNDR,Everett Station,0,SNDR_EV_NB_shp
+SNDR_EV,1703,WD_SNDR,King Street Station,1,SNDR_EV_SB_shp
+SNDR_EV,1704,WD_SNDR,Everett Station,0,SNDR_EV_NB_shp
+SNDR_EV,1704H,SP_SNDR_HOL,Everett Station,0,SNDR_EV_NB_shp
+SNDR_EV,1705,WD_SNDR,King Street Station,1,SNDR_EV_SB_shp
+SNDR_EV,1705H,SP_SNDR_HOL,King Street Station,1,SNDR_EV_SB_shp
+SNDR_EV,1706,WD_SNDR,Everett Station,0,SNDR_EV_NB_shp
+SNDR_EV,1707,WD_SNDR,King Street Station,1,SNDR_EV_SB_shp
+SNDR_EV,1831,SP_SNDR_SEA,King Street Station,1,SNDR_EV_SB_shp
+SNDR_EV,1833,SP_SNDR_SEA,King Street Station,1,SNDR_EV_SB_shp
+AMTK,510,WD_SNDR,Everett Station,0,SNDR_EV_NB_shp
+AMTK,513,WD_SNDR,King Street Station,1,SNDR_EV_SB_shp
+AMTK,516,WD_SNDR,Everett Station,0,SNDR_EV_NB_shp
+AMTK,517,WD_SNDR,King Street Station,1,SNDR_EV_SB_shp
+TLINK,TLNBSA,SA,Theater District,0,TL_NB_shp
+TLINK,TLNBSU,SU,Theater District,0,TL_NB_shp
+TLINK,TLNBWD,WD_TL,Theater District,0,TL_NB_shp
+TLINK,TLSBSA,SA,Tacoma Dome,1,TL_SB_shp
+TLINK,TLSBSU,SU,Tacoma Dome,1,TL_SB_shp
+TLINK,TLSBWD,WD_TL,Tacoma Dome,1,TL_SB_shp

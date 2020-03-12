@@ -1,0 +1,380 @@
+trip_id,stop_id,arrival_time,departure_time,stop_sequence,stop_headsign
+1500,S_LW,04:36:00,04:36:00,1,King Street Station
+1500,S_ST,04:41:00,04:41:00,2,King Street Station
+1500,S_TD,04:50:00,04:50:00,3,King Street Station
+1500,S_PU_NB,05:03:00,05:03:00,4,King Street Station
+1500,S_SU_NB,05:08:00,05:08:00,5,King Street Station
+1500,S_AU_NB,05:18:00,05:18:00,6,King Street Station
+1500,S_KE_NB,05:25:00,05:25:00,7,King Street Station
+1500,S_TK_NB,05:32:00,05:32:00,8,King Street Station
+1500,S_KS,05:52:00,05:52:00,9,King Street Station
+1501,S_KS,06:05:00,06:05:00,1,Tacoma Dome Station
+1501,S_TK_SB,06:18:00,06:18:00,2,Tacoma Dome Station
+1501,S_KE_SB,06:25:00,06:25:00,3,Tacoma Dome Station
+1501,S_AU_SB,06:32:00,06:32:00,4,Tacoma Dome Station
+1501,S_SU_SB,06:42:00,06:42:00,5,Tacoma Dome Station
+1501,S_PU_SB,06:47:00,06:47:00,6,Tacoma Dome Station
+1501,S_TD,07:06:00,07:06:00,7,Tacoma Dome Station
+1502,S_LW,05:01:00,05:01:00,1,King Street Station
+1502,S_ST,05:06:00,05:06:00,2,King Street Station
+1502,S_TD,05:15:00,05:15:00,3,King Street Station
+1502,S_PU_NB,05:28:00,05:28:00,4,King Street Station
+1502,S_SU_NB,05:33:00,05:33:00,5,King Street Station
+1502,S_AU_NB,05:43:00,05:43:00,6,King Street Station
+1502,S_KE_NB,05:50:00,05:50:00,7,King Street Station
+1502,S_TK_NB,05:57:00,05:57:00,8,King Street Station
+1502,S_KS,06:17:00,06:17:00,9,King Street Station
+1503,S_KS,06:35:00,06:35:00,1,Tacoma Dome Station
+1503,S_TK_SB,06:48:00,06:48:00,2,Tacoma Dome Station
+1503,S_KE_SB,06:55:00,06:55:00,3,Tacoma Dome Station
+1503,S_AU_SB,07:02:00,07:02:00,4,Tacoma Dome Station
+1503,S_SU_SB,07:12:00,07:12:00,5,Tacoma Dome Station
+1503,S_PU_SB,07:17:00,07:17:00,6,Tacoma Dome Station
+1503,S_TD,07:36:00,07:36:00,7,Tacoma Dome Station
+1504,S_LW,05:26:00,05:26:00,1,King Street Station
+1504,S_ST,05:31:00,05:31:00,2,King Street Station
+1504,S_TD,05:40:00,05:40:00,3,King Street Station
+1504,S_PU_NB,05:53:00,05:53:00,4,King Street Station
+1504,S_SU_NB,05:58:00,05:58:00,5,King Street Station
+1504,S_AU_NB,06:08:00,06:08:00,6,King Street Station
+1504,S_KE_NB,06:15:00,06:15:00,7,King Street Station
+1504,S_TK_NB,06:22:00,06:22:00,8,King Street Station
+1504,S_KS,06:42:00,06:42:00,9,King Street Station
+1505,S_KS,07:55:00,07:55:00,1,Lakewood Station
+1505,S_TK_SB,08:08:00,08:08:00,2,Lakewood Station
+1505,S_KE_SB,08:15:00,08:15:00,3,Lakewood Station
+1505,S_AU_SB,08:22:00,08:22:00,4,Lakewood Station
+1505,S_SU_SB,08:32:00,08:32:00,5,Lakewood Station
+1505,S_PU_SB,08:37:00,08:37:00,6,Lakewood Station
+1505,S_TD,08:52:00,08:52:00,7,Lakewood Station
+1505,S_ST,09:01:00,09:01:00,8,Lakewood Station
+1505,S_LW,09:11:00,09:11:00,9,Lakewood Station
+1505H,S_KS,07:55:00,07:55:00,1,Lakewood Station
+1505H,S_TK_SB,08:08:00,08:08:00,2,Lakewood Station
+1505H,S_KE_SB,08:15:00,08:15:00,3,Lakewood Station
+1505H,S_AU_SB,08:22:00,08:22:00,4,Lakewood Station
+1505H,S_SU_SB,08:32:00,08:32:00,5,Lakewood Station
+1505H,S_PU_SB,08:37:00,08:37:00,6,Lakewood Station
+1505H,S_TD,08:52:00,08:52:00,7,Lakewood Station
+1505H,S_ST,09:01:00,09:01:00,8,Lakewood Station
+1505H,S_LW,09:11:00,09:11:00,9,Lakewood Station
+1506,S_LW,05:46:00,05:46:00,1,King Street Station
+1506,S_ST,05:51:00,05:51:00,2,King Street Station
+1506,S_TD,06:00:00,06:00:00,3,King Street Station
+1506,S_PU_NB,06:13:00,06:13:00,4,King Street Station
+1506,S_SU_NB,06:18:00,06:18:00,5,King Street Station
+1506,S_AU_NB,06:28:00,06:28:00,6,King Street Station
+1506,S_KE_NB,06:35:00,06:35:00,7,King Street Station
+1506,S_TK_NB,06:42:00,06:42:00,8,King Street Station
+1506,S_KS,07:02:00,07:02:00,9,King Street Station
+1507,S_KS,14:35:00,14:35:00,1,Tacoma Dome Station
+1507,S_TK_SB,14:48:00,14:48:00,2,Tacoma Dome Station
+1507,S_KE_SB,14:55:00,14:55:00,3,Tacoma Dome Station
+1507,S_AU_SB,15:02:00,15:02:00,4,Tacoma Dome Station
+1507,S_SU_SB,15:12:00,15:12:00,5,Tacoma Dome Station
+1507,S_PU_SB,15:17:00,15:17:00,6,Tacoma Dome Station
+1507,S_TD,15:37:00,15:37:00,7,Tacoma Dome Station
+1507H,S_KS,14:35:00,14:35:00,1,Tacoma Dome Station
+1507H,S_TK_SB,14:48:00,14:48:00,2,Tacoma Dome Station
+1507H,S_KE_SB,14:55:00,14:55:00,3,Tacoma Dome Station
+1507H,S_AU_SB,15:02:00,15:02:00,4,Tacoma Dome Station
+1507H,S_SU_SB,15:12:00,15:12:00,5,Tacoma Dome Station
+1507H,S_PU_SB,15:17:00,15:17:00,6,Tacoma Dome Station
+1507H,S_TD,15:37:00,15:37:00,7,Tacoma Dome Station
+1508,S_LW,06:06:00,06:06:00,1,King Street Station
+1508,S_ST,06:11:00,06:11:00,2,King Street Station
+1508,S_TD,06:20:00,06:20:00,3,King Street Station
+1508,S_PU_NB,06:33:00,06:33:00,4,King Street Station
+1508,S_SU_NB,06:38:00,06:38:00,5,King Street Station
+1508,S_AU_NB,06:48:00,06:48:00,6,King Street Station
+1508,S_KE_NB,06:55:00,06:55:00,7,King Street Station
+1508,S_TK_NB,07:02:00,07:02:00,8,King Street Station
+1508,S_KS,07:22:00,07:22:00,9,King Street Station
+1508H,S_LW,06:06:00,06:06:00,1,King Street Station
+1508H,S_ST,06:11:00,06:11:00,2,King Street Station
+1508H,S_TD,06:20:00,06:20:00,3,King Street Station
+1508H,S_PU_NB,06:33:00,06:33:00,4,King Street Station
+1508H,S_SU_NB,06:38:00,06:38:00,5,King Street Station
+1508H,S_AU_NB,06:48:00,06:48:00,6,King Street Station
+1508H,S_KE_NB,06:55:00,06:55:00,7,King Street Station
+1508H,S_TK_NB,07:02:00,07:02:00,8,King Street Station
+1508H,S_KS,07:22:00,07:22:00,9,King Street Station
+1509,S_KS,15:15:00,15:15:00,1,Tacoma Dome Station
+1509,S_TK_SB,15:28:00,15:28:00,2,Tacoma Dome Station
+1509,S_KE_SB,15:35:00,15:35:00,3,Tacoma Dome Station
+1509,S_AU_SB,15:42:00,15:42:00,4,Tacoma Dome Station
+1509,S_SU_SB,15:52:00,15:52:00,5,Tacoma Dome Station
+1509,S_PU_SB,15:57:00,15:57:00,6,Tacoma Dome Station
+1509,S_TD,16:17:00,16:17:00,7,Tacoma Dome Station
+1510,S_LW,06:26:00,06:26:00,1,King Street Station
+1510,S_ST,06:31:00,06:31:00,2,King Street Station
+1510,S_TD,06:40:00,06:40:00,3,King Street Station
+1510,S_PU_NB,06:53:00,06:53:00,4,King Street Station
+1510,S_SU_NB,06:58:00,06:58:00,5,King Street Station
+1510,S_AU_NB,07:08:00,07:08:00,6,King Street Station
+1510,S_KE_NB,07:15:00,07:15:00,7,King Street Station
+1510,S_TK_NB,07:22:00,07:22:00,8,King Street Station
+1510,S_KS,07:42:00,07:42:00,9,King Street Station
+1511,S_KS,15:35:00,15:35:00,1,Lakewood Station
+1511,S_TK_SB,15:48:00,15:48:00,2,Lakewood Station
+1511,S_KE_SB,15:55:00,15:55:00,3,Lakewood Station
+1511,S_AU_SB,16:02:00,16:02:00,4,Lakewood Station
+1511,S_SU_SB,16:12:00,16:12:00,5,Lakewood Station
+1511,S_PU_SB,16:17:00,16:17:00,6,Lakewood Station
+1511,S_TD,16:30:00,16:30:00,7,Lakewood Station
+1511,S_ST,16:39:00,16:39:00,8,Lakewood Station
+1511,S_LW,16:51:00,16:51:00,9,Lakewood Station
+1512,S_LW,06:46:00,06:46:00,1,King Street Station
+1512,S_ST,06:51:00,06:51:00,2,King Street Station
+1512,S_TD,07:00:00,07:00:00,3,King Street Station
+1512,S_PU_NB,07:13:00,07:13:00,4,King Street Station
+1512,S_SU_NB,07:18:00,07:18:00,5,King Street Station
+1512,S_AU_NB,07:28:00,07:28:00,6,King Street Station
+1512,S_KE_NB,07:35:00,07:35:00,7,King Street Station
+1512,S_TK_NB,07:42:00,07:42:00,8,King Street Station
+1512,S_KS,08:02:00,08:02:00,9,King Street Station
+1513,S_KS,15:55:00,15:55:00,1,Tacoma Dome Station
+1513,S_TK_SB,16:08:00,16:08:00,2,Tacoma Dome Station
+1513,S_KE_SB,16:15:00,16:15:00,3,Tacoma Dome Station
+1513,S_AU_SB,16:22:00,16:22:00,4,Tacoma Dome Station
+1513,S_SU_SB,16:32:00,16:32:00,5,Tacoma Dome Station
+1513,S_PU_SB,16:37:00,16:37:00,6,Tacoma Dome Station
+1513,S_TD,16:57:00,16:57:00,7,Tacoma Dome Station
+1514,S_TD,07:20:00,07:20:00,3,King Street Station
+1514,S_PU_NB,07:33:00,07:33:00,4,King Street Station
+1514,S_SU_NB,07:38:00,07:38:00,5,King Street Station
+1514,S_AU_NB,07:48:00,07:48:00,6,King Street Station
+1514,S_KE_NB,07:55:00,07:55:00,7,King Street Station
+1514,S_TK_NB,08:02:00,08:02:00,8,King Street Station
+1514,S_KS,08:22:00,08:22:00,9,King Street Station
+1515,S_KS,16:15:00,16:15:00,1,Lakewood Station
+1515,S_TK_SB,16:28:00,16:28:00,2,Lakewood Station
+1515,S_KE_SB,16:35:00,16:35:00,3,Lakewood Station
+1515,S_AU_SB,16:42:00,16:42:00,4,Lakewood Station
+1515,S_SU_SB,16:52:00,16:52:00,5,Lakewood Station
+1515,S_PU_SB,16:57:00,16:57:00,6,Lakewood Station
+1515,S_TD,17:10:00,17:10:00,7,Lakewood Station
+1515,S_ST,17:19:00,17:19:00,8,Lakewood Station
+1515,S_LW,17:31:00,17:31:00,9,Lakewood Station
+1516,S_TD,07:50:00,07:50:00,3,King Street Station
+1516,S_PU_NB,08:03:00,08:03:00,4,King Street Station
+1516,S_SU_NB,08:08:00,08:08:00,5,King Street Station
+1516,S_AU_NB,08:18:00,08:18:00,6,King Street Station
+1516,S_KE_NB,08:25:00,08:25:00,7,King Street Station
+1516,S_TK_NB,08:32:00,08:32:00,8,King Street Station
+1516,S_KS,08:52:00,08:52:00,9,King Street Station
+1517,S_KS,16:35:00,16:35:00,1,Lakewood Station
+1517,S_TK_SB,16:48:00,16:48:00,2,Lakewood Station
+1517,S_KE_SB,16:55:00,16:55:00,3,Lakewood Station
+1517,S_AU_SB,17:02:00,17:02:00,4,Lakewood Station
+1517,S_SU_SB,17:12:00,17:12:00,5,Lakewood Station
+1517,S_PU_SB,17:17:00,17:17:00,6,Lakewood Station
+1517,S_TD,17:30:00,17:30:00,7,Lakewood Station
+1517,S_ST,17:39:00,17:39:00,8,Lakewood Station
+1517,S_LW,17:51:00,17:51:00,9,Lakewood Station
+1518,S_LW,10:16:00,10:16:00,1,King Street Station
+1518,S_ST,10:21:00,10:21:00,2,King Street Station
+1518,S_TD,10:30:00,10:30:00,3,King Street Station
+1518,S_PU_NB,10:43:00,10:43:00,4,King Street Station
+1518,S_SU_NB,10:48:00,10:48:00,5,King Street Station
+1518,S_AU_NB,10:58:00,10:58:00,6,King Street Station
+1518,S_KE_NB,11:05:00,11:05:00,7,King Street Station
+1518,S_TK_NB,11:12:00,11:12:00,8,King Street Station
+1518,S_KS,11:32:00,11:32:00,9,King Street Station
+1518H,S_LW,10:16:00,10:16:00,1,King Street Station
+1518H,S_ST,10:21:00,10:21:00,2,King Street Station
+1518H,S_TD,10:30:00,10:30:00,3,King Street Station
+1518H,S_PU_NB,10:43:00,10:43:00,4,King Street Station
+1518H,S_SU_NB,10:48:00,10:48:00,5,King Street Station
+1518H,S_AU_NB,10:58:00,10:58:00,6,King Street Station
+1518H,S_KE_NB,11:05:00,11:05:00,7,King Street Station
+1518H,S_TK_NB,11:12:00,11:12:00,8,King Street Station
+1518H,S_KS,11:32:00,11:32:00,9,King Street Station
+1519,S_KS,16:55:00,16:55:00,1,Lakewood Station
+1519,S_TK_SB,17:08:00,17:08:00,2,Lakewood Station
+1519,S_KE_SB,17:15:00,17:15:00,3,Lakewood Station
+1519,S_AU_SB,17:22:00,17:22:00,4,Lakewood Station
+1519,S_SU_SB,17:32:00,17:32:00,5,Lakewood Station
+1519,S_PU_SB,17:37:00,17:37:00,6,Lakewood Station
+1519,S_TD,17:50:00,17:50:00,7,Lakewood Station
+1519,S_ST,17:59:00,17:59:00,8,Lakewood Station
+1519,S_LW,18:11:00,18:11:00,9,Lakewood Station
+1520,S_TD,16:06:00,16:06:00,3,King Street Station
+1520,S_PU_NB,16:18:00,16:18:00,4,King Street Station
+1520,S_SU_NB,16:23:00,16:23:00,5,King Street Station
+1520,S_AU_NB,16:33:00,16:33:00,6,King Street Station
+1520,S_KE_NB,16:40:00,16:40:00,7,King Street Station
+1520,S_TK_NB,16:47:00,16:47:00,8,King Street Station
+1520,S_KS,17:07:00,17:07:00,9,King Street Station
+1520H,S_TD,16:06:00,16:06:00,3,King Street Station
+1520H,S_PU_NB,16:18:00,16:18:00,4,King Street Station
+1520H,S_SU_NB,16:23:00,16:23:00,5,King Street Station
+1520H,S_AU_NB,16:33:00,16:33:00,6,King Street Station
+1520H,S_KE_NB,16:40:00,16:40:00,7,King Street Station
+1520H,S_TK_NB,16:47:00,16:47:00,8,King Street Station
+1520H,S_KS,17:07:00,17:07:00,9,King Street Station
+1521,S_KS,17:20:00,17:20:00,1,Lakewood Station
+1521,S_TK_SB,17:33:00,17:33:00,2,Lakewood Station
+1521,S_KE_SB,17:40:00,17:40:00,3,Lakewood Station
+1521,S_AU_SB,17:47:00,17:47:00,4,Lakewood Station
+1521,S_SU_SB,17:57:00,17:57:00,5,Lakewood Station
+1521,S_PU_SB,18:02:00,18:02:00,6,Lakewood Station
+1521,S_TD,18:15:00,18:15:00,7,Lakewood Station
+1521,S_ST,18:24:00,18:24:00,8,Lakewood Station
+1521,S_LW,18:36:00,18:36:00,9,Lakewood Station
+1521H,S_KS,17:20:00,17:20:00,1,Lakewood Station
+1521H,S_TK_SB,17:33:00,17:33:00,2,Lakewood Station
+1521H,S_KE_SB,17:40:00,17:40:00,3,Lakewood Station
+1521H,S_AU_SB,17:47:00,17:47:00,4,Lakewood Station
+1521H,S_SU_SB,17:57:00,17:57:00,5,Lakewood Station
+1521H,S_PU_SB,18:02:00,18:02:00,6,Lakewood Station
+1521H,S_TD,18:15:00,18:15:00,7,Lakewood Station
+1521H,S_ST,18:24:00,18:24:00,8,Lakewood Station
+1521H,S_LW,18:36:00,18:36:00,9,Lakewood Station
+1522,S_TD,16:30:00,16:30:00,3,King Street Station
+1522,S_PU_NB,16:42:00,16:42:00,4,King Street Station
+1522,S_SU_NB,16:47:00,16:47:00,5,King Street Station
+1522,S_AU_NB,16:57:00,16:57:00,6,King Street Station
+1522,S_KE_NB,17:04:00,17:04:00,7,King Street Station
+1522,S_TK_NB,17:11:00,17:11:00,8,King Street Station
+1522,S_KS,17:31:00,17:31:00,9,King Street Station
+1523,S_KS,17:45:00,17:45:00,1,Lakewood Station
+1523,S_TK_SB,17:58:00,17:58:00,2,Lakewood Station
+1523,S_KE_SB,18:05:00,18:05:00,3,Lakewood Station
+1523,S_AU_SB,18:12:00,18:12:00,4,Lakewood Station
+1523,S_SU_SB,18:22:00,18:22:00,5,Lakewood Station
+1523,S_PU_SB,18:27:00,18:27:00,6,Lakewood Station
+1523,S_TD,18:40:00,18:40:00,7,Lakewood Station
+1523,S_ST,18:49:00,18:49:00,8,Lakewood Station
+1523,S_LW,19:01:00,19:01:00,9,Lakewood Station
+1524,S_TD,17:15:00,17:15:00,3,King Street Station
+1524,S_PU_NB,17:27:00,17:27:00,4,King Street Station
+1524,S_SU_NB,17:32:00,17:32:00,5,King Street Station
+1524,S_AU_NB,17:42:00,17:42:00,6,King Street Station
+1524,S_KE_NB,17:49:00,17:49:00,7,King Street Station
+1524,S_TK_NB,17:56:00,17:56:00,8,King Street Station
+1524,S_KS,18:16:00,18:16:00,9,King Street Station
+1525,S_KS,18:30:00,18:30:00,1,Lakewood Station
+1525,S_TK_SB,18:43:00,18:43:00,2,Lakewood Station
+1525,S_KE_SB,18:50:00,18:50:00,3,Lakewood Station
+1525,S_AU_SB,18:57:00,18:57:00,4,Lakewood Station
+1525,S_SU_SB,19:07:00,19:07:00,5,Lakewood Station
+1525,S_PU_SB,19:12:00,19:12:00,6,Lakewood Station
+1525,S_TD,19:25:00,19:25:00,7,Lakewood Station
+1525,S_ST,19:34:00,19:34:00,8,Lakewood Station
+1525,S_LW,19:46:00,19:46:00,9,Lakewood Station
+1630,S_LW,09:50:00,09:50:00,1,King Street Station
+1630,S_ST,09:55:00,09:55:00,2,King Street Station
+1630,S_TD,10:04:00,10:04:00,3,King Street Station
+1630,S_PU_NB,10:17:00,10:17:00,4,King Street Station
+1630,S_KS,11:00:00,11:00:00,5,King Street Station
+1632,S_SU_NB,10:37:00,10:37:00,1,King Street Station
+1632,S_AU_NB,10:47:00,10:47:00,2,King Street Station
+1632,S_KE_NB,10:54:00,10:54:00,3,King Street Station
+1632,S_TK_NB,11:01:00,11:01:00,4,King Street Station
+1632,S_KS,11:21:00,11:21:00,5,King Street Station
+1634,S_LW,10:15:00,10:15:00,1,King Street Station
+1634,S_ST,10:20:00,10:20:00,2,King Street Station
+1634,S_TD,10:29:00,10:29:00,3,King Street Station
+1634,S_PU_NB,10:42:00,10:42:00,4,King Street Station
+1634,S_SU_NB,10:47:00,10:47:00,5,King Street Station
+1634,S_AU_NB,10:57:00,10:57:00,6,King Street Station
+1634,S_KE_NB,11:04:00,11:04:00,7,King Street Station
+1634,S_TK_NB,11:11:00,11:11:00,8,King Street Station
+1634,S_KS,11:31:00,11:31:00,9,King Street Station
+1700,S_KS,16:05:00,16:05:00,1,Everett Station
+1700,S_ED,16:32:00,16:32:00,2,Everett Station
+1700,S_MU,16:47:00,16:47:00,3,Everett Station
+1700,S_EV,17:04:00,17:04:00,4,Everett Station
+1701,S_EV,05:45:00,05:45:00,1,King Street Station
+1701,S_MU,05:56:00,05:56:00,2,King Street Station
+1701,S_ED,06:11:00,06:11:00,3,King Street Station
+1701,S_KS,06:44:00,06:44:00,4,King Street Station
+1702,S_KS,16:33:00,16:33:00,1,Everett Station
+1702,S_ED,17:00:00,17:00:00,2,Everett Station
+1702,S_MU,17:15:00,17:15:00,3,Everett Station
+1702,S_EV,17:32:00,17:32:00,4,Everett Station
+1703,S_EV,06:15:00,06:15:00,1,King Street Station
+1703,S_MU,06:26:00,06:26:00,2,King Street Station
+1703,S_ED,06:41:00,06:41:00,3,King Street Station
+1703,S_KS,07:14:00,07:14:00,4,King Street Station
+1704,S_KS,17:05:00,17:05:00,1,Everett Station
+1704,S_ED,17:32:00,17:32:00,2,Everett Station
+1704,S_MU,17:47:00,17:47:00,3,Everett Station
+1704,S_EV,18:04:00,18:04:00,4,Everett Station
+1704H,S_KS,17:05:00,17:05:00,1,Everett Station
+1704H,S_ED,17:32:00,17:32:00,2,Everett Station
+1704H,S_MU,17:47:00,17:47:00,3,Everett Station
+1704H,S_EV,18:04:00,18:04:00,4,Everett Station
+1705,S_EV,06:45:00,06:45:00,1,King Street Station
+1705,S_MU,06:56:00,06:56:00,2,King Street Station
+1705,S_ED,07:11:00,07:11:00,3,King Street Station
+1705,S_KS,07:44:00,07:44:00,4,King Street Station
+1705H,S_EV,06:45:00,06:45:00,1,King Street Station
+1705H,S_MU,06:56:00,06:56:00,2,King Street Station
+1705H,S_ED,07:11:00,07:11:00,3,King Street Station
+1705H,S_KS,07:44:00,07:44:00,4,King Street Station
+1706,S_KS,17:35:00,17:35:00,1,Everett Station
+1706,S_ED,18:02:00,18:02:00,2,Everett Station
+1706,S_MU,18:17:00,18:17:00,3,Everett Station
+1706,S_EV,18:34:00,18:34:00,4,Everett Station
+1707,S_EV,07:15:00,07:15:00,1,King Street Station
+1707,S_MU,07:26:00,07:26:00,2,King Street Station
+1707,S_ED,07:41:00,07:41:00,3,King Street Station
+1707,S_KS,08:14:00,08:14:00,4,King Street Station
+1831,S_EV,10:15:00,10:15:00,1,King Street Station
+1831,S_MU,10:26:00,10:26:00,2,King Street Station
+1831,S_ED,10:41:00,10:41:00,3,King Street Station
+1831,S_KS,11:14:00,11:14:00,4,King Street Station
+1833,S_EV,10:30:00,10:30:00,1,King Street Station
+1833,S_MU,10:41:00,10:41:00,2,King Street Station
+1833,S_ED,10:56:00,10:56:00,3,King Street Station
+1833,S_KS,11:29:00,11:29:00,4,King Street Station
+510,S_KS,07:45:00,07:45:00,1,Everett
+510,S_ED,08:12:00,08:12:00,2,Everett
+510,S_EV,08:36:00,08:36:00,3,Everett
+513,S_EV,09:52:00,09:52:00,1,Seattle
+513,S_ED,10:17:00,10:17:00,2,Seattle
+513,S_KS,10:55:00,10:55:00,3,Seattle
+516,S_KS,18:50:00,18:50:00,1,Everett
+516,S_ED,19:17:00,19:17:00,2,Everett
+516,S_EV,19:42:00,19:42:00,3,Everett
+517,S_EV,20:59:00,20:59:00,1,Seattle
+517,S_ED,21:24:00,21:24:00,2,Seattle
+517,S_KS,22:00:00,22:00:00,3,Seattle
+TLNBSA,TL_TD,07:48:00,07:48:00,1,Theater District Station
+TLNBSA,TL_25,07:50:00,07:50:00,2,Theater District Station
+TLNBSA,TL_US,07:52:00,07:52:00,3,Theater District Station
+TLNBSA,TL_CC,07:54:00,07:54:00,4,Theater District Station
+TLNBSA,TL_CS,07:56:00,07:56:00,5,Theater District Station
+TLNBSA,TL_THD,07:58:00,07:58:00,6,Theater District Station
+TLNBSU,TL_TD,09:48:00,09:48:00,1,Theater District Station
+TLNBSU,TL_25,09:50:00,09:50:00,2,Theater District Station
+TLNBSU,TL_US,09:52:00,09:52:00,3,Theater District Station
+TLNBSU,TL_CC,09:54:00,09:54:00,4,Theater District Station
+TLNBSU,TL_CS,09:56:00,09:56:00,5,Theater District Station
+TLNBSU,TL_THD,09:58:00,09:58:00,6,Theater District Station
+TLNBWD,TL_TD,05:00:00,05:00:00,1,Theater District Station
+TLNBWD,TL_25,05:02:00,05:02:00,2,Theater District Station
+TLNBWD,TL_US,05:04:00,05:04:00,3,Theater District Station
+TLNBWD,TL_CC,05:06:00,05:06:00,4,Theater District Station
+TLNBWD,TL_CS,05:08:00,05:08:00,5,Theater District Station
+TLNBWD,TL_THD,05:10:00,05:10:00,6,Theater District Station
+TLSBSA,TL_THD,08:00:00,08:00:00,1,Tacoma Dome Station
+TLSBSA,TL_CS,08:02:00,08:02:00,2,Tacoma Dome Station
+TLSBSA,TL_CC,08:04:00,08:04:00,3,Tacoma Dome Station
+TLSBSA,TL_US,08:06:00,08:06:00,4,Tacoma Dome Station
+TLSBSA,TL_25,08:08:00,08:08:00,5,Tacoma Dome Station
+TLSBSA,TL_TD,08:10:00,08:10:00,6,Tacoma Dome Station
+TLSBSU,TL_THD,10:00:00,10:00:00,1,Tacoma Dome Station
+TLSBSU,TL_CS,10:02:00,10:02:00,2,Tacoma Dome Station
+TLSBSU,TL_CC,10:04:00,10:04:00,3,Tacoma Dome Station
+TLSBSU,TL_US,10:06:00,10:06:00,4,Tacoma Dome Station
+TLSBSU,TL_25,10:08:00,10:08:00,5,Tacoma Dome Station
+TLSBSU,TL_TD,10:10:00,10:10:00,6,Tacoma Dome Station
+TLSBWD,TL_THD,05:12:00,05:12:00,1,Tacoma Dome Station
+TLSBWD,TL_CS,05:14:00,05:14:00,2,Tacoma Dome Station
+TLSBWD,TL_CC,05:16:00,05:16:00,3,Tacoma Dome Station
+TLSBWD,TL_US,05:18:00,05:18:00,4,Tacoma Dome Station
+TLSBWD,TL_25,05:20:00,05:20:00,5,Tacoma Dome Station
+TLSBWD,TL_TD,05:22:00,05:22:00,6,Tacoma Dome Station
