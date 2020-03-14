@@ -28,7 +28,7 @@ def load_bus_data():
     for dir in dirs:
         tokens = dir.split('_')
         syst = tokens[0]
-        year = tokens[1]
+        year = int(tokens[1])
 
         dir = gtfs + dir + "/"
 
@@ -39,7 +39,7 @@ def load_bus_data():
         stops['coordinate'] = [Point(long, lat) for long, lat in
                    zip(stops['stop_lon'], stops['stop_lat'])]
         stops = stops[['stop_id', 'stop_name', 'stop_desc', 'zone_id', 'coordinate']]
-        stops = gpd.GeoDataFrame(stops, geometry='coordinate')
+        # stops = gpd.GeoDataFrame(stops, geometry='coordinate')
 
         merged_stops = stops.merge(right=stop_times, how='right', left_on='stop_id', right_on='stop_id')
         merged_stops['year'] = year
@@ -48,8 +48,8 @@ def load_bus_data():
         if complete is None:
             complete = merged_stops
         else:
-            complete.append(merged_stops)
-    return complete
+            complete = complete.append(merged_stops)
+    return gpd.GeoDataFrame(complete, geometry='coordinate')
 
 
 def load_county_pop():
@@ -83,17 +83,19 @@ def load_tract_incomes():
         if complete is None:
             complete = income
         else:
-            complete.append(income)
+            complete = complete.append(income)
     complete = complete.merge(right=shapes, how='left', left_on='ID Geography', right_on='CTIDFP00')
     return gpd.GeoDataFrame(complete)
 
 
 def plot_income_change_over_availability(incomes, stops):
     # stops.plot()
-    covered_tracts = gpd.sjoin(incomes, stops, how='inner', op='intersects')
-    covered_2013 = covered_tracts[covered_tracts['Year'] == 2013]
-    covered_2017 = covered_tracts[covered_tracts['Year'] == 2017]
-    plt.savefig('income_change_over_availability.png')
+    incomes_2017 = incomes[incomes['Year'] == 2017].dropna(subset=['geometry'])
+    stops_2017 = stops[(stops['year'] == 2017)].dropna(subset=['coordinate'])
+    print(stops_2017)
+    covered_tracts = gpd.sjoin(incomes_2017, stops_2017, how='inner', op='intersects')
+    covered_tracts.groupby('Geography').size()  # for each tract, get number of stops
+    # todo...
 
 
 def main():
