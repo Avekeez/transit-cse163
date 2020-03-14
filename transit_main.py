@@ -2,12 +2,12 @@ import geopandas as gpd
 import pandas as pd
 import os
 from shapely.geometry import Point, Polygon
+import matplotlib.pyplot as plt
 
 COUNTY_SHP = 'data/cb_2018_53_cousub_500k/cb_2018_53_cousub_500k.shp'
 COUNTY_POP = 'data/cc-est2018-alldata-53.csv'
 
 TRACT_SHP = 'data/tl_2010_53_tract00/tl_2010_53_tract00.shp'
-TRACT_INC = 'data/Income by Location.csv'
 
 
 def read_shapes(shapes_txt):
@@ -17,8 +17,6 @@ def read_shapes(shapes_txt):
     shapes = df.groupby('shape_id')['point'].apply(
         lambda points: Polygon([[p.x, p.y] for p in points]))
     df = df.drop_duplicates('shape_id')
-    # df = df.drop(['shape_pt_sequence', 'shape_pt_lat',
-    #               'shape_pt_lon', 'point'], axis=1)
     df['geometry'] = shapes.values
     return gpd.GeoDataFrame(df[['shape_id', 'geometry']])
 
@@ -34,26 +32,14 @@ def load_bus_data():
 
         dir = gtfs + dir + "/"
 
-        # shapes = read_shapes(dir + "shapes.txt")
-        # print(shapes)
-        # shapes.to_csv("shapes_csv.")
-
-        # trips = pd.read_csv(dir + "trips.txt")
-        # print(trips)
-        # trips.to_csv("trips.csv")
-
         stop_times = pd.read_csv(dir + "stop_times.txt")
         stop_times = stop_times[['trip_id', 'arrival_time', 'departure_time', 'stop_id']]
-        # print(stop_times)
-        # stop_times.to_csv(dir + "stop_times.csv)
 
         stops = pd.read_csv(dir + "stops.txt")
-        stops['coordinate'] = [Point(-long, lat) for long, lat in
+        stops['coordinate'] = [Point(long, lat) for long, lat in
                    zip(stops['stop_lon'], stops['stop_lat'])]
         stops = stops[['stop_id', 'stop_name', 'stop_desc', 'zone_id', 'coordinate']]
         stops = gpd.GeoDataFrame(stops, geometry='coordinate')
-        # print(stops)
-        # stops.to_csv(dir + "stops.csv)
 
         merged_stops = stops.merge(right=stop_times, how='right', left_on='stop_id', right_on='stop_id')
         merged_stops['year'] = year
@@ -88,19 +74,34 @@ def load_county_pop():
 
 def load_tract_incomes():
     shapes = gpd.read_file(TRACT_SHP)
-    income = pd.read_csv(TRACT_INC)
-    income['Geography'] = income['Geography'].apply(lambda tract: tract.split(', ')[0])
-    # print(shapes)
-    # print(income)
-    income = income.merge(right=shapes, how='left', left_on='Geography', right_on='NAMELSAD00')
-    return gpd.GeoDataFrame(income)
+    inc_dirs = 'data/incomes/'
+    dirs = os.listdir(inc_dirs)
+    complete = None
+    for dir in dirs:
+        income = pd.read_csv(inc_dirs + dir)
+        income['ID Geography'] = income['ID Geography'].apply(lambda tract: int(tract.split('US')[1]))
+        if complete is None:
+            complete = income
+        else:
+            complete.append(income)
+    complete = complete.merge(right=shapes, how='left', left_on='ID Geography', right_on='CTIDFP00')
+    return gpd.GeoDataFrame(complete)
+
+
+def plot_income_change_over_availability(incomes, stops):
+    # stops.plot()
+    covered_tracts = gpd.sjoin(incomes, stops, how='inner', op='intersects')
+    covered_2013 = covered_tracts[covered_tracts['Year'] == 2013]
+    covered_2017 = covered_tracts[covered_tracts['Year'] == 2017]
+    plt.savefig('income_change_over_availability.png')
 
 
 def main():
     # county_pops = load_county_pop()
     # print(county_pops)
-    # print(load_bus_data())
-    load_tract_incomes()
+    stops = load_bus_data()
+    incomes = load_tract_incomes()
+    plot_income_change_over_availability(incomes, stops)
 
 
 if __name__ == '__main__':
