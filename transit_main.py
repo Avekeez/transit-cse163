@@ -93,11 +93,11 @@ def plot_income_change_over_availability(incomes, stops):
                                 how='inner', on='ID Geography')
     sns.regplot(data=d_incomes, x='stops', y='delta')
 
-    plt.xlabel('Total # of stops in the Tract')
+    plt.xlabel('Total # of bus visits to stops in the tract per week')
     plt.ylabel('Change in average household income in the tract')
     plt.ylim(-21000, 60000)
     plt.subplots_adjust(left=0.2)
-    plt.title('Income Change over Stop Count')
+    plt.title('Income Change vs Bus Availability')
     plt.savefig('income_change_over_availability.png')
 
 
@@ -130,7 +130,7 @@ def main():
     stops = load_bus_data()
     incomes = load_tract_incomes()
     plot_income_change_over_availability(incomes, stops)
-    # plot_buses_vs_income(stops, incomes)
+    plot_buses_vs_income(stops, incomes)
 
 
 if __name__ == '__main__':
